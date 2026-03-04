@@ -1,0 +1,3 @@
+extends: base.yaml
+roles:
+  - role3

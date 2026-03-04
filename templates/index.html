@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Siemens Desk Software</title>
+</head>
+<body>
+    <h1>Feeder Slots</h1>
+    <ul>
+        {% for slot in slots %}
+        <li>{{ slot }}</li>
+        {% endfor %}
+    </ul>
+    <h1>Recipes</h1>
+    <ul>
+        {% for recipe in recipes %}
+        <li>{{ recipe }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
